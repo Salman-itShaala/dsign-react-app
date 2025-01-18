@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 
 const Main = () => {
   return (
-    <main className="text-center mt-16">
+    <main className="text-center my-16">
       <p className="text-6xl font-semibold text-[#002834]">
         Solve problem with an
         <br />
