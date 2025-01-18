@@ -30,9 +30,14 @@ const Header = () => {
           </li>
         </ul>
       </div>
-      <div className="flex gap-8">
+      <div className="flex gap-8 text-[#0075FF] items-center">
         <Link to="/">Sign In</Link>
-        <Link to="/">Sign up</Link>
+        <Link
+          to="/"
+          className="bg-[#DAEBFF] hover:bg-[#97c8ff] px-12 py-4 rounded-bl-full rounded-r-full"
+        >
+          Sign up
+        </Link>
       </div>
     </header>
   );
