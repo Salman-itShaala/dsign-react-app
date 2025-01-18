@@ -31,10 +31,12 @@ const Header = () => {
         </ul>
       </div>
       <div className="flex gap-8 text-[#0075FF] items-center">
-        <Link to="/">Sign In</Link>
+        <Link to="/" className="">
+          Sign In
+        </Link>
         <Link
           to="/"
-          className="bg-[#DAEBFF] hover:bg-[#97c8ff] px-12 py-4 rounded-bl-full rounded-r-full"
+          className="bg-[#DAEBFF] hover:bg-[#97c8ff] px-14 py-4 rounded-bl-full rounded-r-full transition-colors duration-500"
         >
           Sign up
         </Link>
